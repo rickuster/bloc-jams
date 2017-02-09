@@ -30,12 +30,14 @@
  .player-bar .control-group {
      display: table-cell;
      vertical-align: middle;
+     padding: 20px;
  }
  
  .player-bar .main-controls {
      width: 25%;
      text-align: left;
      padding-right: 1rem;
+     padding: 20px;
  }
 
 .player-bar .main-controls .previous {
@@ -51,6 +53,7 @@
      width: 50%;
      text-align: center;
      position: relative;
+     padding: 20px;
  }
 
  .player-bar .currently-playing .song-name,
@@ -66,11 +69,11 @@
  
  .player-bar .currently-playing .song-name,
  .player-bar .currently-playing .artist-song-mobile {
-     top: 1.1rem;
+     top: 0.5rem;
  }
  
  .player-bar .currently-playing .artist-name {
-     bottom: 1.1rem;
+     bottom: 0.5rem;
  }
  
  .player-bar .currently-playing .artist-song-mobile {
@@ -134,6 +137,7 @@
  .player-bar .volume {
      width: 25%;
      text-align: right;
+     padding: 20px;
  }
 
  .player-bar .volume .icon {
